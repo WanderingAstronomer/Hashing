@@ -29,7 +29,7 @@ def banner():
     print("  ╔═══════════════════════════════════════════════╗")
     print("  ║                                               ║")
     print("  ║        HASHING  CONCEPTS  LAB                 ║")
-    print("  ║        Interactive Teaching Demo               ║")
+    print("  ║        Interactive Teaching Demo              ║")
     print("  ║                                               ║")
     print("  ╚═══════════════════════════════════════════════╝")
     print(f"{C_RESET}")
