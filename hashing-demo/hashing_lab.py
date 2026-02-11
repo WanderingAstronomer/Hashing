@@ -14,7 +14,7 @@ No external dependencies — standard library only.
 import time
 
 from demos.ui import (
-    clear, pause, prompt, warn,
+    clear, prompt, warn,
     C_BOLD, C_CYAN, C_DIM, C_GREEN, C_RESET,
 )
 from demos import toy_hash, collisions, avalanche, password, rainbow
