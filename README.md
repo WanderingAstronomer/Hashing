@@ -13,16 +13,15 @@ No external libraries needed — Python 3.6+ standard library only.
 ## Project Structure
 
 ```
-hashing-demo/
-├── hashing_lab.py           # Entry point — banner + main menu
-└── demos/
-    ├── __init__.py
-    ├── ui.py                # Shared colors, box-drawing, formatting
-    ├── toy_hash.py          # Demo 1: Toy hash mapping
-    ├── collisions.py        # Demo 2: Collision challenge
-    ├── avalanche.py         # Demo 3: Avalanche effect
-    ├── password.py          # Demo 4: Fast vs. slow password hashing
-    └── rainbow.py           # Demo 5: Rainbow table attack & salt defense
+hashing_lab.py           # Entry point — banner + main menu
+demos/
+├── __init__.py
+├── ui.py                # Shared colors, box-drawing, formatting
+├── toy_hash.py          # Demo 1: Toy hash mapping
+├── collisions.py        # Demo 2: Collision challenge
+├── avalanche.py         # Demo 3: Avalanche effect
+├── password.py          # Demo 4: Fast vs. slow password hashing
+└── rainbow.py           # Demo 5: Rainbow table attack & salt defense
 ```
 
 Each demo is a self-contained module with a single `run()` function.  Adding a new demo is as simple as creating a file with `run()` and registering it in `hashing_lab.py`.
